@@ -1,0 +1,81 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+
+body {
+  height:100vh;
+    font-family: Arial;
+    padding: 35px;
+    text-align: center;
+    background-image: url("");
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: bolder;
+    margin: 3px;
+    text-align: center;
+  }
+  
+  
+
+  #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.top
+{
+  position: relative;
+  color:white;
+  text-align: center;
+}
+
+.details{
+  position: relative;
+  color: white;
+}
+
+input{
+  position: relative;
+}
+
+.refresh{
+  position: relative;
+}
+
+  div h2{
+    font-style: italic;
+  }
+
+  div p{
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  div h3{
+    font-style: italic;
+  }
+
+  input{
+    border-radius: 10px;
+    border: 2px solid black;
+  }
+
+  .card{
+    width:100%;
+    padding:8px;
+
+  }
+
+  details a{
+    text-decoration: underline;
+    color:white;
+  }
+
+  details a:hover{
+    color:yellow;
+  }
