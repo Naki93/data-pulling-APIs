@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    >
+
+    <link rel="stylesheet" href="style.css" >
+    <title>City Application</title>
+  </head>
+  <body>
+    <main>
+      <!--The video will automatically loop itself and will not have any sound-->
+      <video autoplay muted loop id="myVideo">
+        <source src="aerial.mp4" type="video/mp4" >
+      </video>
+      <h2 class="text-center p-3 text-white top">
+        Enter The WikiCode of Your Desired City
+      </h2>
+      <details class="text-white details">
+        <summary>City WikiCodes</summary>
+        <a href="https://www.wikidata.org/" target="_blank" >Find city codes on this website</a>
+          <p><br>Click on the link above. Type in the name of the city in the
+        search bar click enter<br>
+        and the wikicode(e.g Q5468) should be alongside the name of
+        the city.</p>
+      </details>
+      <!--The onchange event occurs when the value of an HTML element is changed-->
+      <input
+        class="border-dark"
+        onchange="getCity(this)"
+        type="text"
+        
+        name="search"
+        id="search-bar"
+        value=""
+        required
+      >
+
+      <div class="card m-2 text-center">
+        <!--Create an empty div that will act as the parent with an ID "text1"-->
+        <div id="text1"></div>
+        <!--Create an empty div that will act as the parent with an ID "text"-->
+        <div id="text"></div>
+        <br>
+        <!--Create an empty div that will act as the parent with an ID "output"-->
+        <div id="output"></div>
+      </div>
+      <!--Create a link that will be used to refresh the page-->
+      <a href="javascript:refresh()" class="text-white refresh">Refresh</a>
+      <script src="mode.js"></script>
+    </main>
+  </body>
+</html>
