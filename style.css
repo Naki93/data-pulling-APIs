@@ -19,7 +19,7 @@ body {
   
   
 
-  #myVideo {
+  .myVideo {
 background-image: url("pta.jpg");
   position: fixed;
   right: 0;
