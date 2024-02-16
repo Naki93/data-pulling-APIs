@@ -9,7 +9,7 @@ body {
     font-family: Arial;
     padding: 35px;
     text-align: center;
-    background-image: url("");
+    background-image: url("city(2).jpg");
     background-position: center;
     background-repeat: no-repeat;
     font-weight: bolder;
@@ -20,7 +20,7 @@ body {
   
 
   .myVideo {
-background-image: url("pta.jpg");
+background-image: url("");
   position: fixed;
   right: 0;
   bottom: 0;
