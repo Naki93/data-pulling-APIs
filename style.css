@@ -9,9 +9,10 @@ body {
     font-family: Arial;
     padding: 35px;
     text-align: center;
-    background-image: url("citys.jpg");
+    background-image: url("clouds1.jpg");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     font-weight: bolder;
     margin: 3px;
     text-align: center;
